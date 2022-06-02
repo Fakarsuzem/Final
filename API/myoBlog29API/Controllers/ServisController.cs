@@ -12,7 +12,7 @@ namespace myoBlog29API.Controllers
 
     public class ServisController : ApiController
     {
-        MydatabaseEntities2 db = new MydatabaseEntities2();
+        MydatabaseEntities4 db = new MydatabaseEntities4();
         SonucModel sonuc = new SonucModel();
 
         #region Kategori

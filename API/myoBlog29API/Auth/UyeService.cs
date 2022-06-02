@@ -6,7 +6,7 @@ namespace myoBlog29API.Auth
 {
     public class UyeService
     {
-        MydatabaseEntities2 db = new MydatabaseEntities2();
+        MydatabaseEntities4 db = new MydatabaseEntities4();
 
         public UyeModel UyeOturumAc(string kadi, string parola)
         {

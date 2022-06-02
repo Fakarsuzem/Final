@@ -1,7 +1,7 @@
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
-    <mat-toolbar class="mat-elevation-z8" style="background-color: #3F51B5;color:white;">Kategoriler</mat-toolbar>
+    <mat-toolbar class="mat-elevation-z8" style="background-color: #c2185b;color:white;">Kategoriler</mat-toolbar>
     <mat-nav-list>
       <a mat-list-item [routerLink]="['/kategori',kat.KategoriId]" *ngFor="let kat of kategoriler">{{kat.KategoriAdi}}
         ({{kat.KatMakaleSay}})</a>

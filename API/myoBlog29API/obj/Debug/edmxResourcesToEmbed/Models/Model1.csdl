@@ -100,7 +100,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="MydatabaseEntities2" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="MydatabaseEntities4" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Kategori" EntityType="Self.Kategori" />
     <EntitySet Name="Makale" EntityType="Self.Makale" />
     <EntitySet Name="Uye" EntityType="Self.Uye" />

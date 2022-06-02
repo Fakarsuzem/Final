@@ -13,10 +13,10 @@ namespace myoBlog29API.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class MydatabaseEntities2 : DbContext
+    public partial class MydatabaseEntities4 : DbContext
     {
-        public MydatabaseEntities2()
-            : base("name=MydatabaseEntities2")
+        public MydatabaseEntities4()
+            : base("name=MydatabaseEntities4")
         {
         }
     
